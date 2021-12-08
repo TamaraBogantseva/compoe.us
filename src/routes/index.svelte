@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import { todos } from '../stores/todos';
+	import TodoCard from '../Components/TodoCard.svelte';
+	import LayoutGrid, { Cell } from '@smui/layout-grid';
+	// import LayoutGrid from '@smui/layout-grid/src/LayoutGrid.svelte';
+</script>
+
+<h1>List of all todos</h1>
+<LayoutGrid>
+	{#each $todos as todo}
+		<Cell>
+			<TodoCard {todo} />
+		</Cell>
+	{/each}
+</LayoutGrid>
