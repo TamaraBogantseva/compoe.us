@@ -17,6 +17,7 @@
     "@smui/card": "^6.0.0-beta.4",
     "@smui/dialog": "^6.0.0-beta.4",
     "@smui/layout-grid": "^6.0.0-beta.4",
+    "@smui/textfield": "^6.0.0-beta.4",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
     "eslint": "^7.32.0",
