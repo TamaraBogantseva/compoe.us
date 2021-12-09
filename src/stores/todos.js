@@ -17,7 +17,7 @@ async function fetchGraphQL(operationsDoc, operationName, variables) {
 
 const operationsDoc = `
 query FetchTodos {
-    todos {
+    todos(order_by: {created_at: desc}) {
       created_at
       description
       id
