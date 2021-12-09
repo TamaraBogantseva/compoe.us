@@ -64,7 +64,7 @@
 	</Content>
 	<Actions>
 		<Button action="accept" on:click={startExecuteAddTodo('1', todoDescription, todoTitle)}>
-			//here I suppose to pass logged user id
+			<!-- here I suppose to pass logged user id -->
 			<Label>Add</Label>
 		</Button>
 	</Actions>
