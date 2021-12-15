@@ -54,7 +54,7 @@
 				</div>
 				<h4 style="margin: 10px 0px">{todo.title}</h4>
 				<p>{todo.description}</p>
-				<span>{new Date(todo.created_at).toLocaleTimeString()}</span>
+				<span>{new Date(todo.created_at).toLocaleString()}</span>
 				<p>{todo.user.name}</p>
 			</PrimaryAction>
 		</Card>
